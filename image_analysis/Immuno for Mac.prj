@@ -1,0 +1,161 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3253263097" file="H:\Work\Code\matlab\immuno\Immuno for Mac.prj" location="H:\Work\Code\matlab\immuno" name="Immuno for Mac" target="target.mlapps" target-name="Package App">
+    <param.appname>Immuno for Mac</param.appname>
+    <param.authnamewatermark>Dr John Patrick Grady</param.authnamewatermark>
+    <param.email>john.grady@ncl.ac.uk</param.email>
+    <param.company>Newcastle University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>Image Processing Toolbox</item>
+      <item>MATLAB</item>
+      <item>MATLAB Runtime - Core</item>
+      <item>Statistics and Machine Learning Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'17'</item>
+      <item>'1'</item>
+      <item>'35000'</item>
+      <item>'19'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.2</item>
+      <item>8.5</item>
+      <item>8.5</item>
+      <item>10.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\Immuno for Mac.mlappinstall</param.output>
+    <param.guid>5dbb48ba-c14d-45ed-bd79-2ff5fb57babe</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\cellgui_os.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\add_log.m</file>
+      <file>${PROJECT_ROOT}\addElementNew.m</file>
+      <file>${PROJECT_ROOT}\analyseImstruct.m</file>
+      <file>${PROJECT_ROOT}\autocell.m</file>
+      <file>${PROJECT_ROOT}\batch_process.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfCheckJavaMemory.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfCheckJavaPath.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfGetFileExtensions.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfGetPlane.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfGetReader.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfopen.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfOpen3DVolume.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfsave.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\bfUpgradeCheck.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\cellgui_settings.mat</file>
+      <file>${PROJECT_ROOT}\bfmatlab\createMinimalOMEXMLMetadata.m</file>
+      <file>${PROJECT_ROOT}\bfmatlab\private\is_octave.m</file>
+      <file>${PROJECT_ROOT}\c_hand_blank.m</file>
+      <file>${PROJECT_ROOT}\cell2csv.m</file>
+      <file>${PROJECT_ROOT}\cellgui_os.fig</file>
+      <file>${PROJECT_ROOT}\createMinimalOMEXMLMetadata.m</file>
+      <file>${PROJECT_ROOT}\displayImstruct.m</file>
+      <file>${PROJECT_ROOT}\do_cell_contours.m</file>
+      <file>${PROJECT_ROOT}\do_crop.m</file>
+      <file>${PROJECT_ROOT}\draw_example_areas.m</file>
+      <file>${PROJECT_ROOT}\drawElement.m</file>
+      <file>${PROJECT_ROOT}\drawImage.m</file>
+      <file>${PROJECT_ROOT}\fixstr.m</file>
+      <file>${PROJECT_ROOT}\get_excel_sheet_data.m</file>
+      <file>${PROJECT_ROOT}\get_settings_from_file.m</file>
+      <file>${PROJECT_ROOT}\get_settings_from_gui.m</file>
+      <file>${PROJECT_ROOT}\jheapcl.m</file>
+      <file>${PROJECT_ROOT}\load_channel.m</file>
+      <file>${PROJECT_ROOT}\load_folder.m</file>
+      <file>${PROJECT_ROOT}\merge_batch_csvs.m</file>
+      <file>${PROJECT_ROOT}\merge_imaris_csvs.m</file>
+      <file>${PROJECT_ROOT}\merge_imaris_xlss.m</file>
+      <file>${PROJECT_ROOT}\myFunc.m</file>
+      <file>${PROJECT_ROOT}\open_analysis.m</file>
+      <file>${PROJECT_ROOT}\open_analysis_or_image.m</file>
+      <file>${PROJECT_ROOT}\open_image.m</file>
+      <file>${PROJECT_ROOT}\put_settings_to_file.m</file>
+      <file>${PROJECT_ROOT}\put_settings_to_gui.m</file>
+      <file>${PROJECT_ROOT}\rdir.m</file>
+      <file>${PROJECT_ROOT}\removeElement.m</file>
+      <file>${PROJECT_ROOT}\rename_item.m</file>
+      <file>${PROJECT_ROOT}\save_analysis.m</file>
+      <file>${PROJECT_ROOT}\save_current_clim.m</file>
+      <file>${PROJECT_ROOT}\save_if_dirty.m</file>
+      <file>${PROJECT_ROOT}\save_jpeg.m</file>
+      <file>${PROJECT_ROOT}\sbar.m</file>
+      <file>${PROJECT_ROOT}\scrollFn.m</file>
+      <file>${PROJECT_ROOT}\show_cell_numbers.m</file>
+      <file>${PROJECT_ROOT}\update_channel_list.m</file>
+      <file>${PROJECT_ROOT}\waitbar.m</file>
+      <file>${PROJECT_ROOT}\waitmsgbox.m</file>
+      <file>${PROJECT_ROOT}\writeImstruct.m</file>
+      <file>${PROJECT_ROOT}\zoom.m</file>
+      <file>${PROJECT_ROOT}\zoom_to_fill.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\bfmatlab</file>
+      <file>${PROJECT_ROOT}\bioformats_package.jar</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="H:\Work\Code\matlab\immuno" name="Immuno for Mac.mlappinstall" optional="false">H:\Work\Code\matlab\immuno\Immuno for Mac.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
