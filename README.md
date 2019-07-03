@@ -1,11 +1,11 @@
 # Quadruple Immunoanalyzer
 ![Raw quadruple immuno data](image_analysis/splash.png?raw=true)
 
-Software for quadruple immunofluorescence histochemistry developed at the [Wellcome Centre for Mitochondrial Research](http://www.newcastle-mitochondria.com/), Newcastle, UK Developed by [John Grady](https://www.researchgate.net/profile/John_Grady2), with contributions from [Amy Vincent](https://www.ncl.ac.uk/ion/staff/profile/amyvincent.html).
+Software for quadruple immunofluorescence analysis developed at the [Wellcome Centre for Mitochondrial Research](http://www.newcastle-mitochondria.com/), Newcastle, UK Developed by [John Grady](https://www.researchgate.net/profile/John_Grady2), with contributions from [Amy Vincent](https://www.ncl.ac.uk/ion/staff/profile/amyvincent.html).
 
-This software has formed an important part of analysis presented in papers by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2) and [Rocha et al. (2015)](https://www.nature.com/articles/srep15037).
+This Quadruple Immunoanalyzer cell segmentation software was first published by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2). The statistical analysis and use of z-scores was first published by [Rocha et al. (2015)](https://www.nature.com/articles/srep15037).
 
-Capture raw microscopy data, following the method presented by [Rocha et al. (2015)](https://www.nature.com/articles/srep15037).  Install Quadruple Immunoanalyzer image analysis software and use it to analyse raw microscopy image data.  Image analysis results in a merged.csv file of all the data.  This file can be uploaded to [immuno interactive statistical analysis website](http://iah-rdevext.ncl.ac.uk/immuno/).
+Capture raw microscopy data, following the method presented by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2) and stitch images in ZEN.  Install Quadruple Immunoanalyzer image analysis software and use it to analyse raw microscopy image data.  Image analysis results in a merged.csv file of all the data.  This file can be uploaded to [immuno interactive statistical analysis website](http://iah-rdevext.ncl.ac.uk/immuno/).
 
 ## Using Quadruple Immunoanalyzer image analysis software
 
