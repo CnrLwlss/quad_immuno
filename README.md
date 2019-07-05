@@ -5,7 +5,7 @@ Software for quadruple immunofluorescence analysis developed at the [Wellcome Ce
 
 This Quadruple Immunoanalyzer cell segmentation software was first published by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2). The statistical analysis and use of z-scores was first published by [Rocha et al. (2015)](https://www.nature.com/articles/srep15037).
 
-Capture raw microscopy data, following the method presented by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2) and stitch images in ZEN.  Install Quadruple Immunoanalyzer image analysis software and use it to analyse raw microscopy image data.  Image analysis results in a merged.csv file of all the data.  This file can be uploaded to [immuno interactive statistical analysis website](http://iah-rdevext.ncl.ac.uk/immuno/).
+Capture raw microscopy data, following the method presented by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2) and stitch images in [ZEN](https://www.zeiss.com/microscopy/int/products/microscope-software/zen/image-analysis.html).  Install Quadruple Immunoanalyzer image analysis software and use it to analyse raw microscopy image data.  Image analysis results in a merged.csv file of all the data.  This file can be uploaded to [immuno interactive statistical analysis website](http://iah-rdevext.ncl.ac.uk/immuno/).
 
 ## Using Quadruple Immunoanalyzer image analysis software
 
@@ -17,7 +17,7 @@ Quadruple immunoanalyzer requires Matlab version 2015a to run.
 1.	Before you start images should be named *[Sample name]* OXPHOS or *[Sample name]* NPC and placed in the same folder.
 2.	When opened Immunoanalyser will appear as a small window. Under batch processing in the top right hand corner click set folder (Quadruple Immuno Analyser window no.6) and navigate to the folder containing the images and select this folder. A pop-up window with ask if you want to scan the images. If this is the start of your analysis select yes. If you are reopening previous analysis select no. Scanning on images may take a few hours depending on their size and the number of files.
 
-![Screenshot QuadImmunoanalyzer](Image_directory/Capture1.JPG?raw=true)
+![Screenshot QuadImmunoanalyzer](Image_directory/Snap.PNG?raw=true)
 
 3.	Once scanning has finished the first image will open. Select the channel for laminin only (Quadruple Immuno Analyser window no.5).
 4.	The parameters section can be used to adjust the segmentation parameters. Area (Quadruple Immuno Analyser window no.3) is used to set the minimum and maximum area of a cell to be included and threshold (Quadruple Immuno Analyser window no.2) will alter the sensitivity of the automatic segmentation. If you click update (Quadruple Immuno Analyser window no.4) the automatic segmentation will update. Alter the parameters to get the best and most accurate image segmentation.
