@@ -17,13 +17,13 @@ Quadruple immunoanalyzer requires Matlab version 2015a to run.
 1.	Before you start images should be named *[Sample name]* OXPHOS or *[Sample name]* NPC and placed in the same folder.
 2.	When opened Immunoanalyser will appear as a small window. Under batch processing in the top right hand corner click set folder (Quadruple Immuno Analyser window no.6) and navigate to the folder containing the images and select this folder. A pop-up window with ask if you want to scan the images. If this is the start of your analysis select yes. If you are reopening previous analysis select no. Scanning on images may take a few hours depending on their size and the number of files.
 
-![Screenshot QuadImmunoanalyzer](image_analysis/image2.jpg?raw=true)
+![Screenshot QuadImmunoanalyzer](image_directory/Image2.JPG?raw=true)
 
 3.	Once scanning has finished the first image will open. Select the channel for laminin only (Quadruple Immuno Analyser window no.5).
 4.	The parameters section can be used to adjust the segmentation parameters. Area (Quadruple Immuno Analyser window no.3) is used to set the minimum and maximum area of a cell to be included and threshold (Quadruple Immuno Analyser window no.2) will alter the sensitivity of the automatic segmentation. If you click update (Quadruple Immuno Analyser window no.4) the automatic segmentation will update. Alter the parameters to get the best and most accurate image segmentation.
 5.	Once happy that the best automated segmentation has been achieved. Contours can be added to select a cell that has not been segmented by left clicking and dragging the mouse around the outside of the cell. Similarly unwanted contours can be deleted by right clicking on the contour.
 
-![Screenshot QuadImmunoanalyzer](image_analysis/capture.png?raw=true)
+![Screenshot QuadImmunoanalyzer](image_directory/Capture.PNG?raw=true)
 
 6.  Only transverse muscle fibres and not longitudinal should be analysed. Take care not to analyse cells or regions with any freezing artefact. Both of these may impact the results of the analysis.
 7.	Once happy with the segmentation click save analysis (Quadruple Immuno Analyser window no.1) at the top of the window and click on the next image. Go through the process of adjusting the parameters for automated segmentation and manual correction for each image (NPC and OXPHOS) and save each image when finished.
