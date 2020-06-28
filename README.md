@@ -1,7 +1,9 @@
 # Quadruple Immuno Analyser
 ![Raw quadruple immuno data](image_analysis/splash.png?raw=true)
 
-Software for quadruple immunofluorescence analysis developed at the [Wellcome Centre for Mitochondrial Research](http://www.newcastle-mitochondria.com/), Newcastle, UK Developed by [John Grady](https://www.researchgate.net/profile/John_Grady2), with contributions from [Amy Vincent](http://www.newcastle-mitochondria.com/amy-vincent/).
+Software for quadruple immunofluorescence analysis developed at the [Wellcome Centre for Mitochondrial Research](http://www.newcastle-mitochondria.com/), Newcastle, UK by [John Grady](https://www.researchgate.net/profile/John_Grady2), with contributions from [Amy Vincent](http://www.newcastle-mitochondria.com/amy-vincent/).
+
+The latest version is [v3.6](https://github.com/CnrLwlss/quad_immuno/releases/tag/v3.6).
 
 This Quadruple Immuno Analyser cell segmentation software was first published by [Ahmed et al. (2017)](https://www.nature.com/articles/s41598-017-14623-2). The statistical analysis and use of z-scores was first published by [Rocha et al. (2015)](https://www.nature.com/articles/srep15037).
 
