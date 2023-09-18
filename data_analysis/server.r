@@ -202,6 +202,7 @@ do_graph <- function(caseno, data, x_range, y_range, labs){
 
 save_case <- function(all_data, fs, caseno, xrange, yrange, labs){
 	path <- paste0('pdf/',caseno, ".pdf")
+
 	x <- do_graph(caseno, all_data, xrange, yrange, labs)
 	pdf(file=path,width=10,height=10*1.414,onefile=FALSE);
 	print(grid.arrange(x$page))
@@ -289,8 +290,7 @@ shinyServer(function(input, output, session) {
     l$ch <- l$ch[!sapply(l$ch, function(x) {is.null(x) | x==''})] #Remove any null channels, as we don't need channels that are not processed. e.g. area is optional
     l$label <- lapply(l$ch, function(x) input[[paste(x, 'label',sep='_')]])
     l$var_name <-lapply(l$ch, function(x) clean_chan_name(x))
-    l$graph_type <- sapply(l$ids, function(x) input[[paste(x, 'Graph',sep='')]])
-    
+    l$graph_type <- sapply(l$ids, function(x) input[[paste(x, 'Graph',sep='')]])  
     l$cut_labels <- lapply(l$ch, function (x) {   strsplit(input[[paste(x, 'cut_labels',sep='_')]],',')[[1]]	}) #are they to be normalised to the norm channel?
     l$cuts <- lapply(l$ch, function (x) {  as.numeric(strsplit(input[[paste(x, 'cuts',sep='_')]],',')[[1]])	}) #are they to be normalised to the norm channel?
     
@@ -399,9 +399,6 @@ r_dataInput <- reactive({
 	
 	},
 	message = 'Reading the input file...', value = 0)
-		
-
-	 
 
 	return(d)
 })
@@ -566,7 +563,7 @@ ctrl_message <- 'There are no controls specified, so the model and regressions c
 	withProgress({
 	 
 		ox <- r_dataInput_renamed()
-		if (is.null(ox) || is.na(ox) ) {return(NULL)} #|| !("typ" %in% colnames(d) now we allow typ to be blank, but no background correction if it is.
+		if (sum(is.null(ox))>0 || sum(is.na(ox))>0 ) {return(NULL)} #|| !("typ" %in% colnames(d) now we allow typ to be blank, but no background correction if it is.
 
 
 		
